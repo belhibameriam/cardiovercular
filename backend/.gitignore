@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+postgres_data/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+*.pkl
+media/
+staticfiles/
+static_cdn/
+local_settings.py
+.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Pytest cache
+.pytest_cache/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux files
+*~
+.nfs*
+
+# JetBrains IDEs (e.g., PyCharm)
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PIP
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.env
+.dockerignore
+docker-compose.yml
+docker-compose*.yml
+Dockerfile
+*.env.dev
+*.env.prod
+
+# Gunicorn
+gunicorn.log
+gunicorn.error.log
+gunicorn.access.log
+
+# Local development files
+*.
